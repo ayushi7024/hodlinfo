@@ -1,0 +1,44 @@
+.belowheader {
+  display: flex;
+  justify-content: space-between;  /* Distributes the divs evenly */
+  align-items: center;  /* Vertically centers the content */
+  padding: 10px; /* Reduce padding around the section to minimize space */
+  background-color: #191D28; /* Background color */
+  margin-bottom: 0; /* Remove bottom margin to eliminate space below */
+}
+
+.number1, .number2, .number4 {
+  text-align: center;  /* Centers the text inside each div */
+  flex: 1;  /* Allows the divs to take equal width */
+  padding: 10px;  /* Adds padding inside each number div */
+  border-radius: 8px;  /* Optional: rounded corners */
+}
+
+.number3 {
+  text-align: center;  /* Centers the text inside each div */
+  flex: 1;  /* Allows the divs to take equal width */
+  padding: 10px;  /* Adds padding inside each number div */
+  border-radius: 8px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.topheader, .topheader2, .topheader3, .topheader4, .subheading1, .subheading2 {
+  margin: 0;  /* Removes default margin */
+}
+
+.topheader, .topheader2, .topheader3, .topheader4 {
+  color: #3Dc6C1;
+}
+
+.topheader h2, .topheader2 h2, .topheader3 h2, .topheader4 h2, .subheading h3 {
+  margin: 2px 0;  /* Reduce space between elements */
+}
+
+.upperheading h3 {
+  font-size: 18px; /* Optional: color for the "Best price to trade" text */
+}
+
+.subheading1, .subheading2, .subheading3, .subheading4, .subheading5, .upperheading {
+  color: #555;
+}

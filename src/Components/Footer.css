@@ -1,0 +1,16 @@
+/* src/components/Footer.css */
+
+footer {
+    margin: 0; /* Ensure no margin around footer */
+    padding: 10px 0; /* Add some padding for the footer */
+    background-color: #191D28;
+    color: #888686; /* Adjust footer text color if needed */
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px; /* Reduce margin-top to minimize space from the CryptoList */
+    color: #888686;
+}
